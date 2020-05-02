@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  h1= title
+  video#video_obj(height="400",controls)
+    source(src=_videoname)
+
+  br
+
+  button#play 再生
+  button#pause 停止
+
+  br
+  span 演奏時間:
+  span#message 
+  
+  br
+  span 曲の長さ:
+  span#duration
+
+  script(src="/javascripts/ui_player.js")
+
+  
+ 
