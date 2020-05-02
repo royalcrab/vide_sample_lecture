@@ -3,7 +3,8 @@
 
 ### ExpressionEngine ###
 .DS_Store
-mp4/
+mp4/*.mp4
+mp4/*.mov
 public/videos/
 
 # Images
